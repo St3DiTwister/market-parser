@@ -6,9 +6,6 @@ import db
 import time
 from threading import Thread
 
-FILE = 'skins.csv'
-
-
 class Worker:
     def __init__(self, start, step, end, thread_id):
         self.start_default = start
